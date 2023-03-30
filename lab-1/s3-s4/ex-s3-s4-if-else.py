@@ -67,7 +67,7 @@ def compararMenor():
   terceiroNumero = int(input("Digite o terceiro número: "))
 
   menorNumero = primeiroNumero if primeiroNumero < segundoNumero  else segundoNumero
-  menorNumero = terceiroNumero if terceiroNumero < primeiroNumero  else menorNumero
+  menorNumero = terceiroNumero if terceiroNumero < menorNumero  else menorNumero
 
   print(f"O menor número é {menorNumero}") 
 
